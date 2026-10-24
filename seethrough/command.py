@@ -36,7 +36,7 @@ class Refused(Exception):
     """The command will not be run.
 
     Carries a reason atom and the numbers behind it, not a sentence. A caller selects a branch
-    on the atom, and no caller can match prose -- RFD 0124 is the argument. `detail` becomes the
+    on the atom, and no caller can match prose -- RFD66606-0124 is the argument. `detail` becomes the
     map in `{:error, {reason, %{...}}}`.
     """
 

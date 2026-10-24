@@ -1,6 +1,6 @@
 """What a reply is: an Elixir term, carried in CBOR.
 
-RFD 0124 decides the shape and this module writes it. Three shapes and nothing else:
+RFD66606-0124 decides the shape and this module writes it. Three shapes and nothing else:
 
     :ok                     nothing to report
     {:ok, value}            something to report
