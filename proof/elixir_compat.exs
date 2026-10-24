@@ -1,4 +1,4 @@
-# The authoritative check on RFD 0124: a real virtual machine decodes what this interactor
+# The authoritative check on RFD66606-0124: a real virtual machine decodes what this interactor
 # writes, through the one decoder the contract ships, and a caller matches the result.
 #
 # proof/test_command.py asserts the same terms with a Python reader. That is cheap and runs
